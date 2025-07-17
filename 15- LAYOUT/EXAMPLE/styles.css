@@ -51,4 +51,12 @@ a:hover {
     margin: 0px auto;
     background-image: url(https://htmlandcssbook.com/code-samples/chapter-15/images/bg-triangle.png);
     background-repeat: no-repeat;
+    background-position: 0px 0px;
+    text-align: left;
 }
+
+.logo {
+    margin-bottom: 30px;
+}
+
+    
