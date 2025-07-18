@@ -37,6 +37,10 @@ a:hover {
     z-index: 50;
 }
 
+.triangle_image {
+    padding-left: 6.5%;
+}
+
 .nav {
     width: 540px;
     margin-right: 100px;
@@ -70,6 +74,14 @@ h1 {
     margin-top: 140px;
 }
 
+h2 {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    margin-left: 10%;
+}
+
 div.intro p, div.intro a {
     width: 220px;
     float: right;
@@ -89,7 +101,8 @@ div.intro p, div.intro a {
 }
 
 .intro {  /* Selecting the date and the following paragraphs */
-    clear: left;
+    display: block;
+    float: left;
     font-size: 90%;
     line-height: 1.4em;
 }
@@ -103,7 +116,6 @@ div.intro p, div.intro a {
 
 .more_articles {
     border-top: 1px solid #fff;
-    padding: 10px;
 }
 
 .more_articles p {
@@ -136,6 +148,11 @@ div.intro p, div.intro a {
     overflow: auto;
     height: 100%;
     display: inline;
+    justify-content: space-around;
+}
+
+.column1 {
+    padding-left: 1.5%;
 }
 
 .column1, .column2, .column3, .column4 {
