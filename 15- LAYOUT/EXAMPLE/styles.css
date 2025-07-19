@@ -57,6 +57,8 @@ a:hover {
     background-repeat: no-repeat;
     background-position: 0px 0px;
     display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 .logo {
@@ -76,11 +78,11 @@ h1 {
 
 h2 {
     margin: 0;
-    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
     font-size: 21px;
     text-align: left;
-    margin-left: 10%;
-    border: 1px solid pink;
+    margin-left: 2%;
 }
 
 
@@ -119,6 +121,7 @@ h2 {
 }
 
 .more_articles {
+    padding-top: 10px;
     border-top: 1px solid #fff;
 }
 
@@ -148,12 +151,12 @@ h2 {
     color: #807c72;
 }
 
-#more_articles_id {
+/* #more_articles_id {
     overflow: auto;
     height: 100%;
     display: inline;
     justify-content: space-around;
-}
+} */
 
 .column1 {
     padding-left: 1.5%;
